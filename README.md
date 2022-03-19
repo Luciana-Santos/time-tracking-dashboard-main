@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/frontend-mentor-time-tracking-dashboard-Wdl54YgH6)
+- [Solution URL](https://www.frontendmentor.io/solutions/frontend-mentor-time-tracking-dashboard-solution-3z597xKk8)
 - [Live Site URL](https://luciana-santos.github.io/time-tracking-dashboard-main/)
 
 ## My process
