@@ -13,7 +13,7 @@ function scssTask() {
 	return src('app/scss/style.scss', { sourcemaps: true })
 		.pipe(sass())
 		.pipe(postcss([autoprefixer(), cssnano()]))
-		.pipe(dest('dist', { sourcemaps: '.' }));
+		.pipe(dest('.', { sourcemaps: '.' }));
 }
 
 // Converte o js para versões antigas
@@ -22,7 +22,7 @@ function jsTask() {
 		.pipe(concat('scrip.js'))
 		.pipe(babel({ presets: ['@babel/preset-env'] }))
 		.pipe(uglify())
-		.pipe(dest('dist', { sourcemaps: '.' }));
+		.pipe(dest('.', { sourcemaps: '.' }));
 }
 
 // Browsersync
