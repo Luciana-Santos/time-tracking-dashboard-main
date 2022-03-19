@@ -25,7 +25,7 @@
 
   <div class="container">
     <!-- bloco principal -->
-    <main class="main">
+    <main class="main" id="main">
       <!-- area do perfil -->
       <div class="perfil">
         <!-- area usuario -->
@@ -42,47 +42,31 @@
         </div>
 
         <!-- menu com opções de filtragem de dados -->
-      <ul id="filter" class="perfil__menu">
+      <ul id="filtro" class="perfil__menu">
         <li>Daily</li>
-        <li>Weekly</li>
+        <li class="ativo">Weekly</li>
         <li>Monthly</li>
         </ul>
       </div>
 
-      <!-- card base -->
+      <!-- card base
       <div class="card work">
         <div class="card__info">
           <div class="info__title">
-            <h4>Work</h4>
+            <h4 id="titulo">Work</h4>
             <div class="dots">
               <img src="img/icon-ellipsis.svg" alt="">
             </div>
           </div>
 
           <div class="info__dados">
-            <div class="time"><span>32</span>hrs</div>
-            <p>Last Week - <span>36</span>hrs</p>
+            <div class="time"><span id="hora">32</span>hrs</div>
+            <p><span id="desc">Last Week</span> - 36hrs</p>
           </div>
         </div>
       </div>
-      <!-- card base/ -->
-      
-      <div class="card work">
-        <div class="card__info">
-          <div class="info__title">
-            <h4>Work</h4>
-            <div class="dots">
-              <img src="img/icon-ellipsis.svg" alt="">
-            </div>
-          </div>
-
-          <div class="info__dados">
-            <div class="time"><span>32</span>hrs</div>
-            <p>Last Week - <span>36</span>hrs</p>
-          </div>
-        </div>
-      </div>
-
+      card base/ -->
+<!--       
       <div class="card work">
         <div class="card__info">
           <div class="info__title">
@@ -146,6 +130,22 @@
           </div>
         </div>
       </div>
+
+      <div class="card work">
+        <div class="card__info">
+          <div class="info__title">
+            <h4>Work</h4>
+            <div class="dots">
+              <img src="img/icon-ellipsis.svg" alt="">
+            </div>
+          </div>
+
+          <div class="info__dados">
+            <div class="time"><span>32</span>hrs</div>
+            <p>Last Week - <span>36</span>hrs</p>
+          </div>
+        </div>
+      </div> -->
 
     </main>
   </div>
